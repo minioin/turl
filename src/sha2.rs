@@ -1,6 +1,6 @@
-use url::Url;
 use crate::TinyId;
-use sha2::{Sha256, Digest};
+use sha2::{Digest, Sha256};
+use url::Url;
 
 impl From<Url> for TinyId {
     fn from(url: Url) -> Self {
