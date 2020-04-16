@@ -1,6 +1,6 @@
 [package]
 name = "turl"
-version = "0.2.0"
+version = "0.3.0"
 authors = ["Minioin <minioin@protonmail.com>"]
 description = "TinyUrl implementation using sha256 hashing."
 license = "MIT OR Apache-2.0"
@@ -13,5 +13,4 @@ keywords = ["tinyurl", "url-shortner"]
 
 [dependencies]
 data-encoding = "2.2.0"
-url = "2.1.1"
 sha2 = "0.8.1"
